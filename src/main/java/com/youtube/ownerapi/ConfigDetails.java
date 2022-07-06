@@ -27,5 +27,8 @@ public interface ConfigDetails extends Config{
 	@Key("interested")   //in config.properties the key will be interested
 	boolean subscribed();
 	
+	@DefaultValue("SELENIUM")
+	@Key("tool")
+	TOOLS toolName();
 	
 }
