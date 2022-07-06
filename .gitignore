@@ -1,0 +1,10 @@
+
+# Eclipse IDE
+/.classpath
+/.project
+/.settings/
+/target/
+/bin/
+/test-output/
+/logs/
+/reports/
